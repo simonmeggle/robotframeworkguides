@@ -18,7 +18,7 @@ Create Quote for Car
 
 *** Keywords ***
 Open Insurance Application
-    New Browser    browser=${BROWSER}    headless=false
+    New Browser    browser=${BROWSER}    headless=${HEADLESS}
     New Context    locale=en-GB
     New Page    http://sampleapp.tricentis.com/
 
